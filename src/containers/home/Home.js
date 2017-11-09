@@ -58,7 +58,7 @@ export default class Home extends Component {
 
             <div className="home-humility">
               <a
-                href="https://github.com/cloudmu/react-redux-starter-kit"
+                href="https://github.com/cloudmu/geekstars"
                 target="_blank"
                 rel="noopener noreferrer"
               >

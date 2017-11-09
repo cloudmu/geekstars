@@ -8,7 +8,7 @@ const Footer = () => (
       <p className="text-xs-center text-muted">
         Have questions or suggestions? Please file them on the
         {" "}<a
-          href="https://github.com/cloudmu/react-redux-starter-kit/issues"
+          href="https://github.com/cloudmu/geekstars/issues"
           target="_blank"
           rel="noopener noreferrer"
         >
