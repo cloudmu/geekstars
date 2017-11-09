@@ -11,8 +11,6 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import Login from "../login/Login";
-import PrivateRoute from "../misc/PrivateRoute";
 import Home from "../home/Home";
 import UsersPage from "../user/UsersPage";
 import ReposPage from "../repo/ReposPage";
@@ -31,7 +29,6 @@ class App extends Component {
 
   render() {
     const { user } = this.props;
-    const isAuthenticated = true && user;
     return (
       <Router>
         <div>
@@ -41,15 +38,12 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={About} />
-                <Route path="/login" component={Login} />
-                <PrivateRoute
+                <Route
                   path="/users"
-                  isAuthenticated={isAuthenticated}
                   component={UsersPage}
                 />
-                <PrivateRoute
+                <Route
                   path="/repos"
-                  isAuthenticated={isAuthenticated}
                   component={ReposPage}
                 />
                 <Route component={NotFound} />

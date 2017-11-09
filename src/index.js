@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 
 import configureStore from "./store/configureStore";
-import connectToAlerts from "./utils/socketUtils";
 import registerServiceWorker from "./registerServiceWorker";
 import "./index.css";
 import App from "./containers/app/App";
@@ -20,7 +19,6 @@ require("bootstrap/dist/js/bootstrap");
 /////////////////////////////////////////////
 
 const store = configureStore();
-connectToAlerts(store);
 
 ReactDOM.render(
   <Provider store={store}>
