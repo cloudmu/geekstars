@@ -50,23 +50,6 @@ export default class Home extends Component {
                 Bootstrap
               </a>
               ,
-
-              <a
-                href="https://jwt.io"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}JSON Web Token
-              </a>
-              , and
-              {" "}
-              <a
-                href="http://socket.io"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Socket.IO
-              </a>
               ) used together to develop a more complex web
               application, with features such as authentication, navigation, asynchronous data fetching,
               {" "}
@@ -94,21 +77,6 @@ export default class Home extends Component {
 
         <div className="container">
 
-          <h3>What's New</h3>
-          <p>
-            When I started the project, I had to wrestle with Webpack and Babel to have the dev/build process work well.
-            {" "}
-            Recently I ported the starter kit to use
-            {" "}
-            <a
-              href="https://github.com/facebookincubator/create-react-app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              create-react-app
-            </a>
-            . I hope you will enjoy the "zero build configuration" experience as much as I do.
-          </p>
 
           <h3>Technologies used:</h3>
 
@@ -149,24 +117,7 @@ export default class Home extends Component {
                 Bootstrap
               </a>
             </li>
-            <li>
-              <a
-                href="https://jwt.io"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                JSON Web Token
-              </a>
-            </li>
-            <li>
-              <a
-                href="http://socket.io"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {" "}Socket.IO
-              </a>
-            </li>
+            
             <li>
               <a
                 href="https://github.com/facebookincubator/create-react-app/"
@@ -290,55 +241,6 @@ export default class Home extends Component {
             </dd>
             <br />
 
-            <dt>Authentication and Page Restrictions</dt>
-            <dd>
-              Certain UI pages (
-              <code>UsersPage</code>
-              {" "}
-              and
-              {" "}
-              <code>ReposPage</code>
-              ) are restricted.  You can only access them
-              {" "}
-              after signing in to the Application. When accessing restricted pages without signing in first,
-              {" "}
-              the application would redirect to the
-              {" "}
-              <code>Login</code>
-              {" "}
-              page. You can log in as user "admin"
-              {" "}
-              and password "password". The authentication is based on JSON Web Token (JWT).
-            </dd><br />
-
-            <dt>WebSocket</dt>
-            <dd>
-              A "server alerts/notifications" use case is implemented to showcase Socket.IO.
-              {" "}
-              Whenever a client logs in/out of the application using the API server,
-              the API server will notify currently connected clients via Socket.IO.
-              {" "}
-              You can test this use case by opening the the web app in two browsers side by side,
-              and then log in/out the webapp in one browser, and observe the messages in the other browser.
-              {" "}
-              The messages are pushed from the server to the clients in "real time",
-              and show up as
-              {" "}
-              <code>Alerts</code>
-              {" "}
-              in the header section of the web app.
-            </dd><br />
-
-            <dt>Non-Univeral</dt>
-            <dd>
-              Most people probably would listed this under "issues" or "wish list" instead,
-              {" "}
-              since these days a web application is not "cutting edge" or "cool" if it's not universal (isomorphic).
-              {" "}
-              However there are many cases where server-side rendering is simply not required or applicable
-              {" "}
-              (e.g. Java backend instead of Node).
-            </dd>
           </dl>
         </div>
       </div>

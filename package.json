@@ -1,11 +1,11 @@
 {
-  "name": "react-redux-starter-kit",
-  "homepage": "https://cloudmu.github.com/react-redux-starter-kit",
+  "name": "geekstars",
+  "homepage": "https://cloudmu.github.com/geekstars",
   "version": "1.0.0",
   "description": "React/Redux Starter Kit with Zero Build Configuration",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cloudmu/react-redux-starter-kit.git"
+    "url": "https://github.com/cloudmu/geekstars.git"
   },
   "keywords": [
     "react",
@@ -14,24 +14,13 @@
     "react-router",
     "bootstrap",
     "webpack",
-    "jwt",
-    "auth0",
-    "dashboard",
-    "template",
-    "boilerplate",
-    "create-react-app",
-    "websockets",
-    "socket.io",
-    "PWA",
-    "Progressive Web Apps"
-
+    "dashboard"
   ],
   "author": "twitter.com/_cloudmu (http://github.com/cloudmu)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cloudmu/react-redux-starter-kit/issues"
+    "url": "https://github.com/cloudmu/geekstars/issues"
   },
-  "proxy": "http://localhost:3001",
   "devDependencies": {
     "react-scripts": "1.0.17"
   },
@@ -45,15 +34,14 @@
     "lodash": "^4.17.4",
     "popper.js": "^1.12.6",
     "prop-types": "^15.6.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-virtualized": "^9.12.0",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.2.0",
-    "socket.io-client": "^2.0.4"
+    "redux-thunk": "^2.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
