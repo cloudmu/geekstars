@@ -1,15 +1,6 @@
-# [react-redux-starter-kit](http://cloudmu.github.io/react-redux-starter-kit/)
+# [geekstars](http://cloudmu.github.io/geekstars/)
 
-This is yet another single page web application template using React. However, this project attempts to balance simplicity with developing a real web application that actually "does something useful". 
-It demonstrates authentication, navigation, asynchronous data fetching, error handling, and caching and pagination, etc. using the technologies listed below.
-
-But first, the [demo!](http://cloudmu.github.io/react-redux-starter-kit/) It displays information retrieved from the Github API - most followed users and most starred repo's. 
-Credentials are user *admin* and password *password*. 
-
-Note the deployed demo may not always be up to date. Check out the latest project and [run the demo](#getting-started) yourself.
-Here's a screenshot:
-
-![alt text](https://raw.githubusercontent.com/cloudmu/react-redux-starter-kit/master/screenshot.png "Screenshot")
+This is forked from [react-redux-starter-kit](http://cloudmu.github.io/react-redux-starter-kit/) It displays information retrieved from the Github API - most followed users and most starred repo's. 
 
 ## Technologies used:
 
@@ -50,8 +41,8 @@ Thanks to [create-react-app](https://github.com/facebookincubator/create-react-a
 To get started, please clone this git repository and then run `npm install` once under the project top-level directory. 
 
 ```
-git clone https://github.com/cloudmu/react-redux-starter-kit.git
-cd react-redux-starter-kit
+git clone https://github.com/cloudmu/geekstars.git
+cd geekstars
 npm install
 ```
 This will install the dependencies for the client side.
