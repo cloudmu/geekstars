@@ -1,6 +1,6 @@
 {
   "name": "geekstars",
-  "homepage": "https://cloudmu.github.com/geekstars",
+  "homepage": ".",
   "version": "1.0.0",
   "description": "React/Redux Starter Kit with Zero Build Configuration",
   "repository": {
